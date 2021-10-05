@@ -5,11 +5,11 @@ int main()
 {
 int x1, x2, x3, y1, y2, y3;
 printf ("Ведите координаты вершин треугольника \n");
-printf ("1 координата \n");
+printf ("1 koordinata \n");
 scanf ("%i%i", &x1,&y1);
-printf ("2 координата \n");
+printf ("2 koordinata \n");
 scanf ("%i%i", &x2,&y2);
-printf ("3 координата \n");
+printf ("3 koordinata \n");
 scanf ("%i%i", &x3,&y3);
 float side1, side2, side3, side1x, side1y, side2x, side2y, side3x, side3y;
 
