@@ -38,5 +38,5 @@ int main()
     
     printf ("sum = %i \n", sum);
 
-    return 0;
+    return 0;  //выполнил Романович Антон МС-12
 }
