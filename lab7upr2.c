@@ -4,8 +4,8 @@ void search(char s[100]);
 
 int main() {
     char s[100];
-    gets(s);
-    search (s);
+    gets(s);  //ввод предложения
+    search (s);  //обращение к функции search
 return 0;
 }
 
@@ -20,7 +20,7 @@ void search (char s[100]) {
         else {
             if (count > max) {
                 max = count;
-                id = i - count;
+                id = i - count;  // нахождение самого длинного слова в предложении
             }
             count = 0;
         }
@@ -31,6 +31,6 @@ void search (char s[100]) {
     }
     max += id;
     for (i=id; i< max; i++)
-        putchar(s[i]);
+        putchar(s[i]);  //вывод слова
     printf("\n");
-}
+}  //Романович Антон МС-12 Вариант 5
